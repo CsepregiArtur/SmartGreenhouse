@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmartGreenhouse.BLL\SmartGreenhouse.BLL.csproj" />
+    <ProjectReference Include="..\SmartGreenhouse.DAL\SmartGreenhouse.DAL.csproj" />
+    <ProjectReference Include="..\SmartGreenhouse.Models\SmartGreenhouse.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ScottPlot.WinForms" Version="5.0.36" />
+  </ItemGroup>
+
+</Project>

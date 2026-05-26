@@ -1,0 +1,35 @@
+@startuml
+actor Utilizator
+participant "FormDashboard" as UI
+participant "SensorSimulator" as Simulator
+participant "SensorRepository" as Repo
+participant "AlertService" as Alerts
+database "SQL Server" as DB
+
+Utilizator -> UI : Deschide dashboard
+UI -> Simulator : StartSimulation()
+loop la fiecare 5 secunde
+  Simulator -> Repo : GetAllSensors()
+  Repo -> DB : SELECT Sensors
+  DB --> Repo : lista senzori
+  Repo --> Simulator : senzori activi
+
+  loop pentru fiecare senzor
+    Simulator -> Simulator : GenerateSmartValue()
+    Simulator -> Repo : AddReading(reading)
+    Repo -> DB : INSERT SensorReadings
+    DB --> Repo : OK
+
+    Simulator -> Alerts : CheckThresholds(sensor, reading)
+    alt valoare depaseste prag
+      Alerts -> DB : INSERT Alerts
+      DB --> Alerts : OK
+      Alerts --> UI : AlertGenerated
+    end
+
+    Simulator --> UI : NewReadingGenerated
+    UI -> UI : Actualizare card senzor
+    UI -> UI : Actualizare lista alerte
+  end
+end
+@enduml

@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Launch",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/SmartGreenhouse.UI/bin/Debug/net10.0-windows/SmartGreenhouse.UI.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/SmartGreenhouse.UI",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ]
+}

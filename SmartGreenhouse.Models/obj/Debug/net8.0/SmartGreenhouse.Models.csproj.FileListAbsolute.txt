@@ -1,0 +1,11 @@
+C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.Models\bin\Debug\net8.0\SmartGreenhouse.Models.deps.json
+C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.Models\bin\Debug\net8.0\SmartGreenhouse.Models.dll
+C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.Models\bin\Debug\net8.0\SmartGreenhouse.Models.pdb
+C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.Models\obj\Debug\net8.0\SmartGreenhouse.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.Models\obj\Debug\net8.0\SmartGreenhouse.Models.AssemblyInfoInputs.cache
+C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.Models\obj\Debug\net8.0\SmartGreenhouse.Models.AssemblyInfo.cs
+C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.Models\obj\Debug\net8.0\SmartGreenhouse.Models.csproj.CoreCompileInputs.cache
+C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.Models\obj\Debug\net8.0\SmartGreenhouse.Models.dll
+C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.Models\obj\Debug\net8.0\refint\SmartGreenhouse.Models.dll
+C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.Models\obj\Debug\net8.0\SmartGreenhouse.Models.pdb
+C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.Models\obj\Debug\net8.0\ref\SmartGreenhouse.Models.dll

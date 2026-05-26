@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SmartGreenhouse.BLL/SmartGreenhouse.BLL.csproj" />
+  <Project Path="SmartGreenhouse.DAL/SmartGreenhouse.DAL.csproj" />
+  <Project Path="SmartGreenhouse.Models/SmartGreenhouse.Models.csproj" />
+  <Project Path="SmartGreenhouse.UI/SmartGreenhouse.UI.csproj" />
+</Solution>

@@ -1,0 +1,6 @@
+Server=localhost\SQLEXPRESS01;Database=master;Trusted_Connection=True;
+
+-- run below commmand from command prompt
+sqlcmd -S ARTURHP850\SQLEXPRESS01 -No -E
+select @@Version
+go

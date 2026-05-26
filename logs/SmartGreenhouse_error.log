@@ -1,0 +1,608 @@
+[2026-03-14T23:24:45.5420576+02:00] [FirstChance] System.InvalidOperationException: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+[2026-03-14T23:24:48.4169364+02:00] [FirstChance] System.InvalidOperationException: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at SmartGreenhouse.UI.Forms.FormDashboard.<SetupEventHandlers>b__20_0(Object s, EventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 381
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.StartSimulation() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 65
+   at SmartGreenhouse.UI.Forms.FormDashboard.StartSimulation() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 672
+   at SmartGreenhouse.UI.Forms.FormDashboard..ctor(User user) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 51
+[2026-03-14T23:26:36.7245365+02:00] [FirstChance] System.InvalidOperationException: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+[2026-03-14T23:26:38.5971398+02:00] [FirstChance] System.InvalidOperationException: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at SmartGreenhouse.UI.Forms.FormDashboard.<SetupEventHandlers>b__20_0(Object s, EventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 381
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.StartSimulation() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 65
+   at SmartGreenhouse.UI.Forms.FormDashboard.StartSimulation() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 672
+   at SmartGreenhouse.UI.Forms.FormDashboard..ctor(User user) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 51
+[2026-03-14T23:28:01.6986672+02:00] Application starting
+[2026-03-14T23:28:47.4442858+02:00] Application starting
+[2026-03-14T23:29:02.0576978+02:00] Login dialog result: OK
+[2026-03-14T23:29:02.0584882+02:00] Starting dashboard for user admin
+[2026-03-14T23:29:02.2445218+02:00] [FirstChance] System.InvalidOperationException: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+[2026-03-14T23:30:49.8130977+02:00] [FirstChance] System.InvalidOperationException: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at SmartGreenhouse.UI.Forms.FormDashboard.<SetupEventHandlers>b__20_0(Object s, EventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 381
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.StartSimulation() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 65
+   at SmartGreenhouse.UI.Forms.FormDashboard.StartSimulation() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 672
+   at SmartGreenhouse.UI.Forms.FormDashboard..ctor(User user) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 51
+[2026-03-14T23:30:49.8359486+02:00] Exception during login/dashboard startup: System.InvalidOperationException: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at SmartGreenhouse.UI.Forms.FormDashboard.<SetupEventHandlers>b__20_0(Object s, EventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 381
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.StartSimulation() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 65
+   at SmartGreenhouse.UI.Forms.FormDashboard.StartSimulation() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 672
+   at SmartGreenhouse.UI.Forms.FormDashboard..ctor(User user) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 51
+   at SmartGreenhouse.UI.Program.Main() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Program.cs:line 69
+[2026-03-14T23:30:51.2687536+02:00] Application exiting
+[2026-03-14T23:30:56.9835564+02:00] Login dialog result: OK
+[2026-03-14T23:30:56.9869528+02:00] Starting dashboard for user admin
+[2026-03-14T23:30:57.0978092+02:00] [FirstChance] System.InvalidOperationException: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+[2026-03-14T23:30:58.9909366+02:00] [FirstChance] System.InvalidOperationException: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at SmartGreenhouse.UI.Forms.FormDashboard.<SetupEventHandlers>b__20_0(Object s, EventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 381
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.StartSimulation() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 65
+   at SmartGreenhouse.UI.Forms.FormDashboard.StartSimulation() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 672
+   at SmartGreenhouse.UI.Forms.FormDashboard..ctor(User user) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 51
+[2026-03-14T23:30:58.9939244+02:00] Exception during login/dashboard startup: System.InvalidOperationException: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method)
+   at SmartGreenhouse.UI.Forms.FormDashboard.<SetupEventHandlers>b__20_0(Object s, EventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 381
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.StartSimulation() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 65
+   at SmartGreenhouse.UI.Forms.FormDashboard.StartSimulation() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 672
+   at SmartGreenhouse.UI.Forms.FormDashboard..ctor(User user) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Forms\FormDashboard.cs:line 51
+   at SmartGreenhouse.UI.Program.Main() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.UI\Program.cs:line 69
+[2026-03-14T23:31:11.7827888+02:00] Application exiting
+[2026-03-14T23:32:53.0998644+02:00] Application starting
+[2026-03-14T23:33:09.6229010+02:00] Login dialog result: OK
+[2026-03-14T23:33:09.6238380+02:00] Starting dashboard for user admin
+[2026-03-14T23:34:32.7170206+02:00] Application exiting
+[2026-03-14T23:35:03.2670782+02:00] Application starting
+[2026-03-14T23:36:29.0430687+02:00] Login dialog result: OK
+[2026-03-14T23:36:29.0450537+02:00] Starting dashboard for user admin
+[2026-03-14T23:38:42.8696067+02:00] Application exiting
+[2026-03-14T23:43:14.4192747+02:00] Application starting
+[2026-03-14T23:43:35.3412415+02:00] Login dialog result: OK
+[2026-03-14T23:43:35.3420887+02:00] Starting dashboard for user admin
+[2026-03-14T23:44:18.2210250+02:00] Login dialog result: OK
+[2026-03-14T23:44:18.2218847+02:00] Starting dashboard for user operator
+[2026-03-14T23:44:40.4236061+02:00] Login dialog result: OK
+[2026-03-14T23:44:40.4245978+02:00] Starting dashboard for user admin
+[2026-03-14T23:45:00.4085017+02:00] Application exiting
+[2026-03-14T23:45:40.2891005+02:00] Application starting
+[2026-03-14T23:45:46.9307676+02:00] Login dialog result: OK
+[2026-03-14T23:45:46.9314878+02:00] Starting dashboard for user admin
+[2026-03-14T23:46:23.4647261+02:00] Application exiting
+[2026-03-14T23:48:08.6291397+02:00] Application starting
+[2026-03-14T23:48:15.3237433+02:00] Login dialog result: OK
+[2026-03-14T23:48:15.3245525+02:00] Starting dashboard for user admin
+[2026-03-14T23:48:24.7147867+02:00] Application exiting
+[2026-03-14T23:49:19.6069497+02:00] Application starting
+[2026-03-14T23:49:37.8390054+02:00] Login dialog result: OK
+[2026-03-14T23:49:37.8396607+02:00] Starting dashboard for user admin
+[2026-03-14T23:49:54.6143370+02:00] Application exiting
+[2026-03-14T23:50:27.5431494+02:00] Application starting
+[2026-03-14T23:50:33.6652176+02:00] Login dialog result: OK
+[2026-03-14T23:50:33.6666183+02:00] Starting dashboard for user admin
+[2026-03-14T23:55:54.6432016+02:00] Application starting
+[2026-03-14T23:56:03.9836928+02:00] Login dialog result: OK
+[2026-03-14T23:56:03.9851098+02:00] Starting dashboard for user admin
+[2026-03-14T23:59:53.8487956+02:00] Application exiting
+[2026-03-15T00:02:53.1568455+02:00] Application starting
+[2026-03-15T00:02:59.6354349+02:00] Login dialog result: OK
+[2026-03-15T00:02:59.6365160+02:00] Starting dashboard for user admin
+[2026-03-15T00:05:12.6855734+02:00] Application exiting
+[2026-03-15T00:05:27.7362473+02:00] Application starting
+[2026-03-15T00:05:36.7901920+02:00] Login dialog result: OK
+[2026-03-15T00:05:36.7913642+02:00] Starting dashboard for user admin
+[2026-03-15T00:07:19.2822165+02:00] Application exiting
+[2026-03-15T00:07:44.5841193+02:00] Application starting
+[2026-03-15T00:07:51.2761910+02:00] Login dialog result: OK
+[2026-03-15T00:07:51.2769297+02:00] Starting dashboard for user admin
+[2026-03-15T00:08:15.1309881+02:00] Application exiting
+[2026-03-15T00:10:23.8405426+02:00] Application starting
+[2026-03-15T00:10:33.6909704+02:00] Login dialog result: OK
+[2026-03-15T00:10:33.6918323+02:00] Starting dashboard for user admin
+[2026-03-15T00:11:45.9408246+02:00] Application exiting
+[2026-03-15T00:11:57.2574063+02:00] Application starting
+[2026-03-15T00:12:03.6779961+02:00] Login dialog result: OK
+[2026-03-15T00:12:03.6787548+02:00] Starting dashboard for user admin
+[2026-03-15T00:12:29.0161065+02:00] Application exiting
+[2026-03-15T00:12:50.0172722+02:00] Application starting
+[2026-03-15T00:12:55.8043236+02:00] Login dialog result: OK
+[2026-03-15T00:12:55.8051716+02:00] Starting dashboard for user admin
+[2026-03-15T00:14:52.5386962+02:00] Application exiting
+[2026-03-15T00:15:19.7916431+02:00] Application starting
+[2026-03-15T00:15:26.0393807+02:00] Login dialog result: OK
+[2026-03-15T00:15:26.0400811+02:00] Starting dashboard for user admin
+[2026-03-15T00:19:23.5085356+02:00] Application exiting
+[2026-03-17T10:20:59.1657846+02:00] Application starting
+[2026-03-17T10:21:16.1144526+02:00] Login dialog result: OK
+[2026-03-17T10:21:16.1155947+02:00] Starting dashboard for user admin
+[2026-03-17T10:22:01.1618412+02:00] Login dialog result: OK
+[2026-03-17T10:22:01.1627702+02:00] Starting dashboard for user operator
+[2026-03-17T10:22:50.3468700+02:00] Login dialog result: OK
+[2026-03-17T10:22:50.3479780+02:00] Starting dashboard for user admin
+[2026-03-17T10:27:11.7519158+02:00] Application exiting
+[2026-03-17T10:32:41.1873578+02:00] Application starting
+[2026-04-28T23:02:32.1025147+03:00] Application starting
+[2026-04-28T23:03:09.5315505+03:00] Login dialog result: OK
+[2026-04-28T23:03:09.5323922+03:00] Starting dashboard for user admin
+[2026-04-28T23:03:39.4024240+03:00] Application exiting
+[2026-05-07T08:58:01.8181549+03:00] Application starting
+[2026-05-07T09:01:00.8360280+03:00] Login dialog result: Cancel
+[2026-05-07T09:01:00.8393776+03:00] Login cancelled
+[2026-05-07T09:01:00.8487961+03:00] Application exiting
+[2026-05-07T12:34:58.0441326+03:00] Application starting
+[2026-05-07T12:35:12.3507947+03:00] Login dialog result: OK
+[2026-05-07T12:35:12.3519508+03:00] Starting dashboard for user admin
+[2026-05-07T12:35:31.1201824+03:00] Application exiting
+[2026-05-07T17:30:30.3008685+03:00] Application starting
+[2026-05-07T17:30:39.2392089+03:00] Login dialog result: Cancel
+[2026-05-07T17:30:39.2504980+03:00] Login cancelled
+[2026-05-07T17:30:39.2631477+03:00] Application exiting
+[2026-05-07T17:41:54.6394520+03:00] Application starting
+[2026-05-07T17:42:12.6260736+03:00] Login dialog result: OK
+[2026-05-07T17:42:12.6266010+03:00] Starting dashboard for user admin
+[2026-05-07T17:42:26.5634502+03:00] Application exiting
+[2026-05-24T23:20:17.1053848+03:00] Application starting
+[2026-05-24T23:21:14.9987156+03:00] Login dialog result: OK
+[2026-05-24T23:21:14.9992893+03:00] Starting dashboard for user admin
+[2026-05-25T00:33:50.2787339+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+[2026-05-25T00:33:50.2801514+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+[2026-05-25T00:33:50.3096115+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[2026-05-25T00:33:50.3283546+03:00] [AppDomain] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+[2026-05-25T00:33:55.2207943+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+[2026-05-25T00:33:55.2232934+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+[2026-05-25T00:33:55.2242382+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[2026-05-25T00:33:55.2256425+03:00] [AppDomain] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+[2026-05-25T00:34:00.2279107+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+[2026-05-25T00:34:00.2289647+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+[2026-05-25T00:34:00.2298411+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[2026-05-25T00:34:00.2309744+03:00] [AppDomain] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+[2026-05-25T00:34:05.2277157+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+[2026-05-25T00:34:05.2288082+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+[2026-05-25T00:34:05.2303684+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[2026-05-25T00:34:05.2317109+03:00] [AppDomain] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+[2026-05-25T00:34:10.5434009+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+[2026-05-25T00:34:10.5443016+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+[2026-05-25T00:34:10.5451528+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[2026-05-25T00:34:10.8171823+03:00] [AppDomain] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+[2026-05-25T00:34:15.2725573+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+[2026-05-25T00:34:15.2863880+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+[2026-05-25T00:34:15.3079638+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[2026-05-25T00:34:15.3102597+03:00] [AppDomain] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+[2026-05-25T00:34:16.2207569+03:00] [FirstChance] Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+ClientConnectionId:c8be742a-430b-4bb0-b435-4c6d909dce12
+Error Number:-2,State:0,Class:11
+[2026-05-25T00:34:16.2292113+03:00] [FirstChance] Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+ClientConnectionId:ee3c58e7-dd17-4c3b-a124-26dfcf60f555
+Error Number:-2,State:0,Class:11
+[2026-05-25T00:34:16.2351131+03:00] [FirstChance] Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+ClientConnectionId:c8be742a-430b-4bb0-b435-4c6d909dce12
+Error Number:-2,State:0,Class:11
+[2026-05-25T00:34:16.2360817+03:00] [FirstChance] Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+ClientConnectionId:c8be742a-430b-4bb0-b435-4c6d909dce12
+Error Number:-2,State:0,Class:11
+[2026-05-25T00:34:16.2367485+03:00] [FirstChance] Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+ClientConnectionId:ee3c58e7-dd17-4c3b-a124-26dfcf60f555
+Error Number:-2,State:0,Class:11
+[2026-05-25T00:34:16.2367485+03:00] [FirstChance] Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+ClientConnectionId:c8be742a-430b-4bb0-b435-4c6d909dce12
+Error Number:-2,State:0,Class:11
+[2026-05-25T00:34:16.2372865+03:00] [FirstChance] Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+ClientConnectionId:ee3c58e7-dd17-4c3b-a124-26dfcf60f555
+Error Number:-2,State:0,Class:11
+[2026-05-25T00:34:16.2380761+03:00] [FirstChance] Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+ClientConnectionId:ee3c58e7-dd17-4c3b-a124-26dfcf60f555
+Error Number:-2,State:0,Class:11
+[2026-05-25T00:34:16.2446978+03:00] [FirstChance] Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+ClientConnectionId:c8be742a-430b-4bb0-b435-4c6d909dce12
+Error Number:-2,State:0,Class:11
+[2026-05-25T00:34:16.2475215+03:00] [AppDomain] Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+ClientConnectionId:c8be742a-430b-4bb0-b435-4c6d909dce12
+Error Number:-2,State:0,Class:11
+[2026-05-25T00:34:16.2389488+03:00] [FirstChance] Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteNonQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 74
+   at SmartGreenhouse.BLL.Services.AlertService.SaveAlert(Alert alert) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\AlertService.cs:line 119
+   at SmartGreenhouse.BLL.Services.AlertService.CheckThresholds(Sensor sensor, SensorReading reading) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\AlertService.cs:line 79
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 114
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+ClientConnectionId:ee3c58e7-dd17-4c3b-a124-26dfcf60f555
+Error Number:-2,State:0,Class:11
+[2026-05-25T00:34:16.2492893+03:00] [AppDomain] Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Operation cancelled by user.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteNonQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 74
+   at SmartGreenhouse.BLL.Services.AlertService.SaveAlert(Alert alert) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\AlertService.cs:line 119
+   at SmartGreenhouse.BLL.Services.AlertService.CheckThresholds(Sensor sensor, SensorReading reading) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\AlertService.cs:line 79
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 114
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+ClientConnectionId:ee3c58e7-dd17-4c3b-a124-26dfcf60f555
+Error Number:-2,State:0,Class:11
+[2026-05-26T07:13:18.4866071+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+[2026-05-26T07:13:18.5176377+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+[2026-05-26T07:13:18.6259127+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteNonQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 74
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.AddReading(SensorReading reading) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 152
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 111
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[2026-05-26T07:13:18.6686028+03:00] [AppDomain] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteNonQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 74
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.AddReading(SensorReading reading) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 152
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 111
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+[2026-05-26T07:13:37.6812459+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+[2026-05-26T07:13:37.6817276+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+[2026-05-26T07:13:37.6823928+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteNonQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 74
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.AddReading(SensorReading reading) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 152
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 111
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[2026-05-26T07:13:37.6834602+03:00] [AppDomain] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteNonQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 74
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.AddReading(SensorReading reading) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 152
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 111
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+[2026-05-26T07:14:00.4976001+03:00] Application starting
+[2026-05-26T07:14:10.3287242+03:00] Login dialog result: OK
+[2026-05-26T07:14:10.3294529+03:00] Starting dashboard for user admin
+[2026-05-26T10:18:17.0778491+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+[2026-05-26T10:18:17.0794373+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+[2026-05-26T10:18:17.1508225+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[2026-05-26T10:18:17.2292243+03:00] [AppDomain] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+[2026-05-26T10:18:21.5130695+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+[2026-05-26T10:18:21.5209654+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+[2026-05-26T10:18:21.5241123+03:00] [FirstChance] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+[2026-05-26T10:18:21.5255447+03:00] [AppDomain] System.InvalidOperationException: There is already an open DataReader associated with this Connection which must be closed first.
+   at Microsoft.Data.SqlClient.SqlCommand.ValidateCommand(Boolean isAsync, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at SmartGreenhouse.DAL.DatabaseHelper.ExecuteQuery(String query, SqlParameter[] parameters) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\DatabaseHelper.cs:line 56
+   at SmartGreenhouse.DAL.Repositories.SensorRepository.GetAllSensors() in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.DAL\Repositories\SensorRepository.cs:line 33
+   at SmartGreenhouse.BLL.Simulation.SensorSimulator.OnSimulationTick(Object sender, ElapsedEventArgs e) in C:\UTCN\Anul3Sem2\II\SmartGreenhouse\SmartGreenhouse.BLL\Services\SensorSimulator.cs:line 89
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__124_1(Object state)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+[2026-05-26T10:18:42.7513698+03:00] Application starting
+[2026-05-26T10:32:54.8619987+03:00] Login dialog result: OK
+[2026-05-26T10:32:54.8632409+03:00] Starting dashboard for user admin
+[2026-05-26T10:35:50.4130376+03:00] Application exiting

@@ -1,0 +1,45 @@
+@startuml
+left to right direction
+skinparam actorStyle awesome
+
+actor Administrator as Admin
+actor Operator
+actor Viewer
+
+rectangle "Smart Greenhouse Manager" {
+  usecase "Autentificare" as UC_Login
+  usecase "Vizualizare dashboard" as UC_Dashboard
+  usecase "Monitorizare valori senzori" as UC_Monitor
+  usecase "Vizualizare alerte" as UC_Alerts
+  usecase "Gestionare senzori" as UC_Sensors
+  usecase "Adaugare senzor" as UC_AddSensor
+  usecase "Editare senzor" as UC_EditSensor
+  usecase "Stergere senzor" as UC_DeleteSensor
+  usecase "Pornire simulare" as UC_Sim
+  usecase "Generare alerte automate" as UC_AutoAlert
+  usecase "Vizualizare rapoarte" as UC_Reports
+}
+
+Admin --> UC_Login
+Admin --> UC_Dashboard
+Admin --> UC_Monitor
+Admin --> UC_Alerts
+Admin --> UC_Sensors
+Admin --> UC_Reports
+
+Operator --> UC_Login
+Operator --> UC_Dashboard
+Operator --> UC_Monitor
+Operator --> UC_Alerts
+
+Viewer --> UC_Login
+Viewer --> UC_Dashboard
+Viewer --> UC_Monitor
+
+UC_Sensors .> UC_AddSensor : <<include>>
+UC_Sensors .> UC_EditSensor : <<include>>
+UC_Sensors .> UC_DeleteSensor : <<include>>
+UC_Dashboard .> UC_Sim : <<include>>
+UC_Sim .> UC_AutoAlert : <<include>>
+UC_Dashboard .> UC_Alerts : <<include>>
+@enduml

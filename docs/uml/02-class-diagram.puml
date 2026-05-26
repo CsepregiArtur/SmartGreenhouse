@@ -1,0 +1,151 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+package "SmartGreenhouse.Models" {
+  class User {
+    +int UserId
+    +string Username
+    +string PasswordHash
+    +string Email
+    +UserRole Role
+    +DateTime CreatedAt
+    +DateTime? LastLogin
+    +bool IsActive
+  }
+
+  class Sensor {
+    +int SensorId
+    +string Name
+    +SensorType Type
+    +string Unit
+    +string Location
+    +double MinValue
+    +double MaxValue
+    +double WarningLow
+    +double WarningHigh
+    +double CriticalLow
+    +double CriticalHigh
+    +bool IsActive
+    +DateTime InstalledDate
+    +int CreatedByUserId
+  }
+
+  class SensorReading {
+    +int ReadingId
+    +int SensorId
+    +DateTime Timestamp
+    +double Value
+    +ReadingQuality Quality
+  }
+
+  class Alert {
+    +int AlertId
+    +int? SensorId
+    +int? ActuatorId
+    +DateTime Timestamp
+    +AlertLevel Level
+    +string Message
+    +double? Value
+    +bool IsAcknowledged
+    +int? AcknowledgedByUserId
+    +DateTime? AcknowledgedAt
+  }
+
+  class Actuator {
+    +int ActuatorId
+    +string Name
+    +ActuatorType Type
+    +string Location
+    +ActuatorStatus Status
+    +bool IsAutoMode
+    +DateTime InstalledDate
+    +int CreatedByUserId
+  }
+
+  class ActuatorCommand {
+    +int CommandId
+    +int ActuatorId
+    +int IssuedByUserId
+    +DateTime Timestamp
+    +CommandType Command
+    +int? DurationSeconds
+    +bool Executed
+  }
+}
+
+package "SmartGreenhouse.DAL" {
+  class DatabaseHelper {
+    +SqlConnection GetConnection()
+    +DataTable ExecuteQuery(query, params)
+    +int ExecuteNonQuery(query, params)
+    +object ExecuteScalar(query, params)
+  }
+
+  class UserRepository {
+    +User Authenticate(username, passwordHash)
+    +List<User> GetAllUsers()
+    +bool AddUser(user, passwordHash)
+  }
+
+  class SensorRepository {
+    +List<Sensor> GetAllSensors()
+    +Sensor GetSensorById(sensorId)
+    +bool AddSensor(sensor)
+    +bool UpdateSensor(sensor)
+    +bool DeleteSensor(sensorId)
+    +bool AddReading(reading)
+    +DataTable GetLatestReadings()
+    +DataTable GetReadingsHistory(sensorId, startDate, endDate)
+  }
+}
+
+package "SmartGreenhouse.BLL" {
+  class SensorSimulator {
+    +bool IsRunning
+    +int UpdateIntervalSeconds
+    +double NoiseLevel
+    +void StartSimulation()
+    +void StopSimulation()
+  }
+
+  class AlertService {
+    +void CheckThresholds(sensor, reading)
+    +List<Alert> GetUnacknowledgedAlerts()
+    +bool AcknowledgeAlert(alertId, userId)
+  }
+
+  class TrendPredictor {
+    +double PredictNextValue(readings)
+    +string GetTrend(readings)
+  }
+}
+
+package "SmartGreenhouse.UI" {
+  class FormLogin
+  class FormDashboard
+  class FormSensorsManagement
+  class FormSensorEdit
+}
+
+User "1" -- "0..*" Sensor : creates >
+Sensor "1" -- "0..*" SensorReading
+Sensor "1" -- "0..*" Alert
+User "1" -- "0..*" Alert : acknowledges >
+User "1" -- "0..*" Actuator : creates >
+Actuator "1" -- "0..*" ActuatorCommand
+User "1" -- "0..*" ActuatorCommand : issues >
+
+UserRepository --> DatabaseHelper
+SensorRepository --> DatabaseHelper
+SensorSimulator --> SensorRepository
+SensorSimulator --> AlertService
+AlertService --> DatabaseHelper
+TrendPredictor ..> SensorReading
+
+FormLogin --> UserRepository
+FormDashboard --> SensorRepository
+FormDashboard --> SensorSimulator
+FormDashboard --> AlertService
+FormSensorsManagement --> SensorRepository
+FormSensorEdit ..> Sensor
+@enduml
